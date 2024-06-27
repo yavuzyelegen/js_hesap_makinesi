@@ -1,0 +1,60 @@
+#navbar{
+    display: inline;
+    width: 100%;
+    position: fixed;
+    list-style-type:none;
+    top:20px;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 16px 1px;
+    float: left;
+}
+ 
+#navbar li a{   
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 15px;
+}
+#navbar li a:hover{
+    background-color:#1694d3;
+}
+
+body{
+    background-color: paleturquoise;
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+
+#cerceve{
+    margin: 0 auto;
+    max-width: 450px;
+    height: 450px;
+    padding-top: 5%;
+    width: auto;   
+    border-radius: 1%;
+}
+
+input.veriGiris{
+    width: auto;
+    max-width: 150px;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.formSatir{
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sayilar{
+    width: 40%;
+    margin: auto;
+}
+
+input{
+    margin: 0 auto;
+}
